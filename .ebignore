@@ -1,0 +1,22 @@
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore cache files
+__pycache__/
+*.pyc
+
+# Ignore git and logs
+.git/
+.gitignore
+*.log
+
+# Ignore data or notebook files
+*.csv
+*.ipynb
+*.xlsx
+
+# Ignore large model training data
+dataset/
+data/
+notebooks/
